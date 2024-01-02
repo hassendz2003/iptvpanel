@@ -1,0 +1,26 @@
+{
+    "name": "your/iptvpanel/iptvcms",
+    "description": "manager video",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "33iptv",
+            "email": "admin@33iptv.xyz"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "monolog/monolog": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Your\\localhoste\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
